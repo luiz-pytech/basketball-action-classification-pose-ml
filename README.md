@@ -99,6 +99,19 @@ results/figures/confusion_matrices_10_classes_80_features/
 results/figures/confusion_matrices_3_classes_defense_walk_shoot/
 results/figures/keypoint_slide_examples/
 ```
+## Modelos avaliados
+
+```text
+Logistic Regression
+Decision Tree
+Random Forest
+XGBoost
+SVM (SVC)
+MLP
+```
+
+A metrica principal de comparacao e `f1_macro`, porque o dataset e
+desbalanceado entre classes.
 
 ## Resumo dos resultados
 
@@ -157,16 +170,3 @@ As demais matrizes de confusao estao nas pastas de figuras listadas acima, uma
 imagem por modelo.
 
 
-## Modelos avaliados
-
-```text
-Logistic Regression
-Decision Tree
-Random Forest
-XGBoost
-SVM (SVC)
-MLP
-```
-
-A metrica principal de comparacao e `f1_macro`, porque o dataset e
-desbalanceado entre classes.
